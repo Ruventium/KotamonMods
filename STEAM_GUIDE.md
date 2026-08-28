@@ -26,7 +26,7 @@ VSyncMode = Off
 
 Two separate experimental KOTAMON mods. Built with some AI assistance and tested on one installation. Use at your own risk. The author is not responsible for crashes, lost saves, or any other damage.
 
-`KotamonPileUnlock.dll` lets you manually open the next junk pile before finishing the previous one, preserves old pile contents, and hides the misleading all-junk-cleaned message. No auto-opening.
+`KotamonPileUnlock.dll` lets you manually open the next junk pile before finishing the previous one, preserves old pile contents, and hides the misleading all-junk-cleaned message.
 
 `KotamonFPSUnlock.dll` changes the FPS limit through `BepInEx/config/opencode.kotamon.fpsunlock.cfg`.
 
