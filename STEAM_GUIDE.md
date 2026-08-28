@@ -2,9 +2,9 @@
 
 ## Русский
 
-Два отдельных экспериментальных мода для KOTAMON. При подготовке немного использовался ИИ; проверено на одной установке. Используйте на свой риск. Автор не отвечает за вылеты, потерю сейвов или другой ущерб.
+Два отдельных экспериментальных мода для KOTAMON, сделанные ИИ. Проверено на KOTAMON Unity `6000.4.1f1`. Я не знаю, как игра может себя повести с этими модами. Используйте на свой риск.
 
-`KotamonPileUnlock.dll` разрешает вручную открывать следующую кучу до завершения предыдущей, сохраняет старый мусор и убирает ложное уведомление об уборке всего мусора. Автооткрытия нет.
+`KotamonPileUnlock.dll` разрешает вручную открывать следующую кучу до завершения предыдущей, сохраняет старый мусор и убирает ложное уведомление об уборке всего мусора.
 
 `KotamonFPSUnlock.dll` меняет лимит FPS через `BepInEx/config/opencode.kotamon.fpsunlock.cfg`.
 
@@ -42,4 +42,4 @@ Requires [BepInEx 6 IL2CPP x64](https://builds.bepinex.dev/projects/bepinex_be).
 
 Direct links: [PileUnlock DLL](https://github.com/Ruventium/KotamonMods/releases/latest/download/KotamonPileUnlock.dll) and [FPSUnlock DLL](https://github.com/Ruventium/KotamonMods/releases/latest/download/KotamonFPSUnlock.dll).
 
-Back up `%USERPROFILE%/AppData/LocalLow/KotaMota Games/Kotamon/` first. Experimental, no warranty.
+Back up `%USERPROFILE%/AppData/LocalLow/KotaMota Games/Kotamon/` first. I am not responsible for crashes, lost saves, or other damage.
