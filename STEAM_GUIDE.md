@@ -54,7 +54,7 @@ VSyncMode = Off
 
 ## Скачать
 
-Добавьте ссылки на GitHub Release после публикации архивов:
+Скачать архивы можно из [GitHub Release v1.0.0](https://github.com/Ruventium/KotamonMods/releases/tag/v1.0.0):
 
 - `KotamonPileUnlock-1.0.0.zip`
 - `KotamonFPSUnlock-1.0.0.zip`
