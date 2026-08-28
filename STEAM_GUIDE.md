@@ -1,34 +1,12 @@
-# KOTAMON: FPS и разблокировка мусорных куч
+# KOTAMON MODS / МОДЫ
 
-## Что это
+## Русский
 
-Два независимых плагина для KOTAMON на BepInEx 6 IL2CPP:
+Два отдельных экспериментальных мода для KOTAMON. Сделано с помощью ИИ и проверено на одной установке. Используйте на свой риск. Автор не отвечает за вылеты, потерю сейвов или другой ущерб.
 
-- `KotamonPileUnlock.dll` позволяет открывать следующую кучу, не собирая предыдущую, сохраняет уже разбросанный мусор и убирает ложное уведомление о полной уборке.
-- `KotamonFPSUnlock.dll` позволяет менять лимит FPS через конфиг BepInEx.
+`KotamonPileUnlock.dll` разрешает вручную открывать следующую кучу до завершения предыдущей, сохраняет старый мусор и убирает ложное уведомление об уборке всего мусора. Автооткрытия нет.
 
-Автооткрытие куч намеренно не используется: в текущей версии игры оно вызывает нестабильное поведение. Кучи открываются вручную без обязательного завершения предыдущей.
-
-## Требования
-
-- Windows x64.
-- Steam-версия KOTAMON на Unity `6000.4.1f1`.
-- BepInEx 6 IL2CPP x64. Проверено на build `6.0.0-be.785`.
-
-## Установка
-
-1. Установите BepInEx 6 IL2CPP x64 в папку KOTAMON.
-2. Запустите игру один раз и закройте её.
-3. Скопируйте нужные DLL в `KOTAMON/BepInEx/plugins/`.
-4. Запустите игру через Steam.
-
-## Настройка FPS
-
-После первого запуска откройте:
-
-`KOTAMON/BepInEx/config/opencode.kotamon.fpsunlock.cfg`
-
-Пример:
+`KotamonFPSUnlock.dll` меняет лимит FPS через `BepInEx/config/opencode.kotamon.fpsunlock.cfg`.
 
 ```ini
 [Frame Rate]
@@ -36,25 +14,32 @@ TargetFPS = 240
 VSyncMode = Off
 ```
 
-`TargetFPS = 240` задаёт потолок 240 FPS. `TargetFPS = 0` снимает лимит приложения. `VSyncMode = Game` использует настройку игры, `Off` отключает VSync, `On` включает VSync.
+`TargetFPS = 0` снимает лимит. `VSyncMode`: `Game`, `Off` или `On`.
 
-Чтобы увидеть больше 60 FPS, монитор должен работать с частотой выше 60 Гц.
+Требуется [BepInEx 6 IL2CPP x64](https://builds.bepinex.dev/projects/bepinex_be). Скопируйте нужные DLL напрямую в `BepInEx/plugins/`.
 
-## Безопасность сохранений
+Скачать DLL: [GitHub Release](https://github.com/Ruventium/KotamonMods/releases/latest).
 
-Перед установкой модов сделайте копию папки:
+Перед установкой сделайте копию `%USERPROFILE%/AppData/LocalLow/KotaMota Games/Kotamon/`. Мод экспериментальный, гарантий нет.
 
-`%USERPROFILE%/AppData/LocalLow/KotaMota Games/Kotamon/`
+## English
 
-Плагины не редактируют сейвы напрямую. `KotamonPileUnlock.dll` сохраняет мусор предыдущих куч в сцене, поэтому нагрузка на систему может вырасти.
+Two separate experimental KOTAMON mods. Made with AI assistance and tested on one installation. Use at your own risk. The author is not responsible for crashes, lost saves, or any other damage.
 
-## Удаление
+`KotamonPileUnlock.dll` lets you manually open the next junk pile before finishing the previous one, preserves old pile contents, and hides the misleading all-junk-cleaned message. No auto-opening.
 
-Удалите соответствующий DLL из `BepInEx/plugins/`. Сейвы удалять не нужно.
+`KotamonFPSUnlock.dll` changes the FPS limit through `BepInEx/config/opencode.kotamon.fpsunlock.cfg`.
 
-## Скачать
+```ini
+[Frame Rate]
+TargetFPS = 240
+VSyncMode = Off
+```
 
-Скачать архивы можно из [GitHub Release v1.0.0](https://github.com/Ruventium/KotamonMods/releases/tag/v1.0.0):
+`TargetFPS = 0` removes the limit. `VSyncMode`: `Game`, `Off`, or `On`.
 
-- `KotamonPileUnlock-1.0.0.zip`
-- `KotamonFPSUnlock-1.0.0.zip`
+Requires [BepInEx 6 IL2CPP x64](https://builds.bepinex.dev/projects/bepinex_be). Copy the desired DLL files directly to `BepInEx/plugins/`.
+
+Download DLLs: [GitHub Release](https://github.com/Ruventium/KotamonMods/releases/latest).
+
+Back up `%USERPROFILE%/AppData/LocalLow/KotaMota Games/Kotamon/` first. Experimental, no warranty.
