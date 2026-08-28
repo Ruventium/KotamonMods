@@ -2,7 +2,7 @@
 
 ## Русский
 
-Два отдельных экспериментальных мода для KOTAMON. Сделано с помощью ИИ и проверено на одной установке. Используйте на свой риск. Автор не отвечает за вылеты, потерю сейвов или другой ущерб.
+Два отдельных экспериментальных мода для KOTAMON. При подготовке немного использовался ИИ; проверено на одной установке. Используйте на свой риск. Автор не отвечает за вылеты, потерю сейвов или другой ущерб.
 
 `KotamonPileUnlock.dll` разрешает вручную открывать следующую кучу до завершения предыдущей, сохраняет старый мусор и убирает ложное уведомление об уборке всего мусора. Автооткрытия нет.
 
@@ -18,13 +18,13 @@ VSyncMode = Off
 
 Требуется [BepInEx 6 IL2CPP x64](https://builds.bepinex.dev/projects/bepinex_be). Скопируйте нужные DLL напрямую в `BepInEx/plugins/`.
 
-Скачать DLL: [GitHub Release](https://github.com/Ruventium/KotamonMods/releases/latest).
+Прямые ссылки: [PileUnlock DLL](https://github.com/Ruventium/KotamonMods/releases/latest/download/KotamonPileUnlock.dll) и [FPSUnlock DLL](https://github.com/Ruventium/KotamonMods/releases/latest/download/KotamonFPSUnlock.dll).
 
 Перед установкой сделайте копию `%USERPROFILE%/AppData/LocalLow/KotaMota Games/Kotamon/`. Мод экспериментальный, гарантий нет.
 
 ## English
 
-Two separate experimental KOTAMON mods. Made with AI assistance and tested on one installation. Use at your own risk. The author is not responsible for crashes, lost saves, or any other damage.
+Two separate experimental KOTAMON mods. Built with some AI assistance and tested on one installation. Use at your own risk. The author is not responsible for crashes, lost saves, or any other damage.
 
 `KotamonPileUnlock.dll` lets you manually open the next junk pile before finishing the previous one, preserves old pile contents, and hides the misleading all-junk-cleaned message. No auto-opening.
 
@@ -40,6 +40,6 @@ VSyncMode = Off
 
 Requires [BepInEx 6 IL2CPP x64](https://builds.bepinex.dev/projects/bepinex_be). Copy the desired DLL files directly to `BepInEx/plugins/`.
 
-Download DLLs: [GitHub Release](https://github.com/Ruventium/KotamonMods/releases/latest).
+Direct links: [PileUnlock DLL](https://github.com/Ruventium/KotamonMods/releases/latest/download/KotamonPileUnlock.dll) and [FPSUnlock DLL](https://github.com/Ruventium/KotamonMods/releases/latest/download/KotamonFPSUnlock.dll).
 
 Back up `%USERPROFILE%/AppData/LocalLow/KotaMota Games/Kotamon/` first. Experimental, no warranty.
